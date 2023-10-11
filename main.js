@@ -168,7 +168,13 @@ function count(){
     let even_poz=[]
     let odd_poz=[]
 
-    // контроль второго поля не нужен, т.к. type="number"
+    // контроль второго поля на тип не нужен, т.к. type="number"
+    // TODO: спросить Максимовича
+    // if (num===undefined || num===null) {
+    //     let result=document.querySelector(".result")
+    //     result.innerHTML='Введите число во второе поле!'
+    //     return
+    // }
 
     for (i = 0; i < arr.length; i++) {
         // контроль первого поля
