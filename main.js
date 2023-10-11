@@ -192,7 +192,7 @@ function count(){
 
         // способ 2
         if ( uniq.find( (e) => e === Number(arr[i]) ) === Number(arr[i]) ) {
-            console.log(`uniq - allready exist ${Number(arr[i])}`)
+            console.log(`uniq - allready exists ${Number(arr[i])}`)
         }
         else {
             uniq.push(Number(arr[i]))
