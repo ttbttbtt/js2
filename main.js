@@ -156,7 +156,6 @@ function count(){
     console.log(arr)
     document.querySelector(".massiv").innerHTML=`НАЧАЛЬНЫЙ МАССИВ: [${arr}]`
 
-    let test=0
     let sum=0
     let mult=1
     let even=[] // возможна такая запись: new Array()
@@ -185,7 +184,17 @@ function count(){
 
         // TODO: спросить Максимовича про тернарное условие !!!
         // !uniq.includes(Number(arr[i])) ? uniq.push(Number(arr[i]))
-        if (!uniq.includes(Number(arr[i]))) {
+
+        // способ 1 ещё не проходили
+        // if (!uniq.includes(Number(arr[i]))) {
+        //     uniq.push(Number(arr[i]))
+        // }
+
+        // способ 2
+        if ( uniq.find( (e) => e === Number(arr[i]) ) === Number(arr[i]) ) {
+            console.log(`uniq - allready exist ${Number(arr[i])}`)
+        }
+        else {
             uniq.push(Number(arr[i]))
         }
         
