@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>JS. Массивы, циклы</title>
+</head>
+<body>
+    <h2>JS. Массивы, циклы</h2>
+
+    <h4>Введите элементы массива (через запятую):</h4>
+    <textarea class="vvod" name="mass" cols="50" rows="2" maxlength="2000"></textarea>
+    
+    <h4>Введите число (для пунктов 8 и 9):</h4>
+    <input type="number" class="vvod">
+
+    <br><br>
+    <button class="btn" onclick="count()">Выполнить</button>
+    <span>см. консоль</span>
+    <!-- <button class="btn" onclick="clean()">Очистить</button> -->
+
+    <br><br>
+    <div class="massiv"></div>
+
+    <br>
+    <div class="result"></div>
+
+    <div class="vopr">
+        <div class="voprleft">
+            <div class="res">1. Сумма элементов: </div>
+            <div class="res">2. Произведение элементов: </div>
+            <div class="res">3. Массив четных чисел: </div>
+            <div class="res">4. Массив нечетных чисел: </div>
+            <div class="res">5. Массив уникальных значений: </div>
+        </div>
+        <div class="voprright">
+            <div class="res">6. Массив положительных чисел: </div>
+            <div class="res">7. Массив отрицательных чисел: </div>
+            <div class="res">8. Массив чисел, больших заданного значения: </div>
+            <div class="res">9. Массив чисел, меньших заданного значения: </div>
+            <div class="res">10. Массив чисел, стоящих на чётных позициях: </div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body{
+    font-weight: 700;
+    color: darkblue;
+    margin-left: 20px;
+}
+h4, .result, .massiv, span{
+    color: rgb(209, 18, 18);
+}
+.vopr{
+    display: flex;
+    gap: 10px calc(25vw);
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.voprleft, .voprright{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+span{
+    margin-left: 10px;
+}
